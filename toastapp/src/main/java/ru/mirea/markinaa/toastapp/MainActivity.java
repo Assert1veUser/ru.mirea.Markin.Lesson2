@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Integer count = editText.length();
                 Toast toast = Toast.makeText(getApplicationContext(),
-                        "СТУДЕНТ № " + count.toString() + " ГРУППА " + count.toString() + " Количество символов - " + count.toString(),
+                        "СТУДЕНТ № " + count + " ГРУППА " + count + " Количество символов - " + count,
                         Toast.LENGTH_SHORT);
                 toast.show();
             }
